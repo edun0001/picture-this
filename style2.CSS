@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  grid-template-columns: 2fr;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.title {
+  padding: 50px 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+}
+
+p {
+  text-align: left;
+}
+
+
+
+
+img{
+  display: inline-flex;
+  width: 200%;
+  height: -35%;
+  margin-left: 105%;
+  margin-top: -65%;
+  align-items: center;
+}
+
+
+
+@media (min-width: 960px) {
+  .header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
